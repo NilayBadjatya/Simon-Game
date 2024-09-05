@@ -40,7 +40,7 @@ function nextSequence() {
   document.querySelector("h1").innerHTML = "Level " + level;
 }
 function playSound(name) {
-  var audio = new Audio("/sounds/" + name + ".mp3");
+  var audio = new Audio("./sounds/" + name + ".mp3");
   audio.play();
 }
 function checkAnswer(currentLevel) {
